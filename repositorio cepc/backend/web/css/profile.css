@@ -1,0 +1,18 @@
+#img-profile{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
+
+.centro{
+	text-align: center;
+}
+
+
+.companies-index{
+	margin-top:50px;
+}
+
+hr{
+	border-color: #333;
+}

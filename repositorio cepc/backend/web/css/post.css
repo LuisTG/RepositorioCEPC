@@ -1,0 +1,86 @@
+body{background-color: #00A37A;}
+.content{
+	background-color: white;
+	padding: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+.content a{
+	text-decoration: none;
+	color: #212121;
+}
+.content a:hover{
+	color: #3F51B5;
+}
+.shadow{
+	-webkit-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.61);
+	-moz-box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.61);
+	box-shadow: 10px 10px 5px -9px rgba(0,0,0,0.61);
+}
+
+pre{
+	background-color: #eee;
+	padding: 0 1em 0 1em;
+	border-radius: 5px;
+}
+.tag-category{
+	background-color: #FF1744;
+	padding: 2px 15px 3px 15px;
+	border-radius: 10px;
+	color: white;
+}
+.button-problem{
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 10px 50px 13px 50px;
+	background-color: #1B5E20;
+	border-radius: 1px;
+	transition-duration: 0.4s;
+}
+.button-problem:hover{
+	background-color: #4CAF50;
+	transition-duration: 0.4s;
+}
+.button-text{text-align:center;}
+
+.content-comments{
+	padding: 2em;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+.user-img{
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	background-color: #E0E0E0;
+}
+.comment{
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 1px 10px 10px 10px;
+	font-size: 15px;
+}
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #eee;
+}
+input{
+	color: white;
+}
+.comment-user textarea{
+	padding: 10px;
+	width: 100%;
+   resize: none;
+	font-family: 'Roboto', sans-serif;
+}
+.button-send{
+	font-size: 15px;
+	color: white;
+	border: none;
+	padding: 5px 50px 8px 50px;
+	background-color: #1B5E20;
+	border-radius: 1px;
+}
+*:focus {
+    outline: none;
+}

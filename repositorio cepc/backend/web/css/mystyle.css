@@ -1,0 +1,37 @@
+.same-color{
+	background-color: #222d32;
+}
+
+.user-panel>.image>img{
+	width: 50px;
+	height: 45px;
+}
+
+#post>.panel-heading td{
+	width: 50%;
+}
+
+.content-parent{
+	width: 100%;
+}
+
+.label{     
+	background-color: #5cb85c;
+	color: white;
+	padding: 5px 10px 5px 10px;
+	font-size: 9px;
+	border-radius: 25px; 
+}
+
+.enlace{
+	cursor:pointer;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.bg-exito{
+	background-color: rgba(0,166,90,.25);
+
+}
